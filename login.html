@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="cartellafoto/emote.ico">
+    <script src="script.js"></script>
+    <title>Login | sito bellissimo</title>
+</head>
+<body>
+    <h1 id="titolo_login">Login</h1>
+    <div id="format">
+        <form id="loginForm">
+        <div class="label"><p>Username:</p></div> 
+        <input class="caselle" type="text" id="username">
+        <br>
+        <p>Password:</p>
+        <input class="caselle" type="password" id="password">
+        <br> <br>
+        <input type="checkbox" onclick="psw()"><label>show password</label>
+    </form>
+        <br>
+        <button id="login" onclick="return controllo()">login</button>
+    </div>
+</body>
+</html>
