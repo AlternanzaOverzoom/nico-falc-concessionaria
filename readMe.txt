@@ -1,0 +1,2 @@
+pagine del sito altamente incomplete, iniziata uno sviluppo responsitivo solo sulla pagina di login e di registrazione 
+homepage ancora vuota e da completare in generale. Da aggiungere la parte del salvataggio dei dati utente  
