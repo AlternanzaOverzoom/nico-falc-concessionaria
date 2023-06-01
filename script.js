@@ -17,15 +17,20 @@ function psw() {
         alert("la password deve essere lunga almeno 8 caratteri");
         return false;
     }else{
-        window.location.href = "homepage.html";
+        window.location.href = "index.html";
         return true;
         
     }
  }
-  function cambiaColore() {
-    let img1 = document.getElementById("ico").src;
-    
-  }
-  function cambiaColore2(){
-    document.getElementById("ico").src = "cartellafoto/CasaBianca.png";
-  }
+ function openNav() {
+  document.getElementById("side-nav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("side-nav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+  
+  

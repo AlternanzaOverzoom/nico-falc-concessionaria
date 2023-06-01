@@ -1,6 +1,6 @@
 body{
-    margin: 10px;
-    background-color:rgb(188, 182, 255);
+    margin: 0px;
+    background-color:rgb(129, 210, 199);
 }
 label{
     font-family: nunito;
@@ -8,7 +8,7 @@ label{
 }
 p{
     margin-right: 40%;
-        font-family: nunito;
+    font-family: nunito;
     color: white;
 }
 span{
@@ -32,16 +32,18 @@ span{
 }   
 #header1{
     padding: 1%;
+    height: 30px;
     background-color: white;
 }
 #header2{
     padding: 0.5%;
     height: 30px;
-    background-color:rgb(0, 83, 119);
+    background-color:rgb(65, 103, 136);
 }
-img{
-    height: 90px;
-    width: 200px;
+footer{
+    padding: 0.5%;
+    height: 50px;
+    background-color: rgb(65, 103, 136);
 }
 .class{
     float: left;
@@ -53,6 +55,7 @@ img{
 }
 #credits{
     background-color: white;
+    
     height: auto;
     width: auto; 
 }
@@ -67,7 +70,7 @@ h1{
     width: 200px;
     padding: 2%;
     margin: auto;
-    background: linear-gradient(90deg, rgb(0, 83, 119)10%, rgb(6, 167, 125) 50%, rgb(148, 251, 171) 100%);
+    background: linear-gradient(90deg, rgb(65, 103, 136)10%, rgb(115, 137, 174) 50%, rgb(181, 186, 208) 100%);
 }
 #formatRegister{
     text-align: center;
@@ -76,7 +79,7 @@ h1{
     width: 200px;
     padding: 2%;
     margin: auto;
-    background: linear-gradient(90deg, rgb(0, 83, 119)10%, rgb(6, 167, 125) 50%, rgb(148, 251, 171) 100%);
+    background: linear-gradient(90deg, rgb(65, 103, 136)10%, rgb(115, 137, 174) 50%, rgb(181, 186, 208) 100%);
 }
 #login{
     border-radius: 5px;
@@ -84,7 +87,7 @@ h1{
     width: 120px;
     border-color: transparent;
     font-family: nunito;
-    background-color:rgb(0, 83, 119);
+    background-color:rgb(65, 103, 136);
     color: antiquewhite;
 }
 .bottone-gruppo button{
@@ -95,7 +98,7 @@ h1{
     border-radius: 16px;
     border-color: transparent;
     color: white;
-    background-color:rgb(0, 83, 119);
+    background-color:rgb(65, 103, 136);
     font-family: nunito;
 }
 .sinistra{
@@ -108,13 +111,18 @@ h1{
     content: "";
     clear: both;
     display: table;
-  }
+}
+#jumpscare{
+    visibility: hidden;
+    position: fixed;
+    
+}
 .bottone-gruppo button:not(:last-child){
     border-right: none;
 }
 .bottone-gruppo button:hover{
     color: black;
-    background-color: rgb(148, 251, 171);
+    background-color: rgb(129, 210, 199);
 }
 .bottone2{
     float: right;
@@ -125,14 +133,14 @@ h1{
     border-radius: 5%;
     font-family: nunito;
 }
-#ico{
-    float: left;
-    width: 20px;
-    height: 20px;
-    border-width: 0; margin: 0; padding: 0;
+#logo{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #home{
-    position: relative; padding: 0;
+    position: relative;
+     padding: 0;
 }
 #ico2{
     float: left;
@@ -145,7 +153,7 @@ h1{
 
 #login:hover {
     color: black;
-    background-color: rgb(148, 251, 171);
+    background-color: rgb(129, 210, 199);
 }
 .imgSite{
     margin-top: 20px;
@@ -167,7 +175,7 @@ h1{
     margin: auto;
     border-color: transparent;
     border-radius: 12px;
-    width: 55%;
+    width: 80%;
 }
 .caselle:hover{
     border-style:groove;
@@ -178,5 +186,56 @@ h1{
     margin-left:20% ;
     text-align: justify;
 }
-
-
+.foto-piedi{
+    margin: auto;
+    width: 100px;
+    height: 50px;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
