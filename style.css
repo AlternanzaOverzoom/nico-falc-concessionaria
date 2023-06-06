@@ -43,6 +43,7 @@ span{
 footer{
     padding: 0.5%;
     height: 50px;
+    position: sticky;
     background-color: rgb(65, 103, 136);
 }
 .class{
@@ -66,6 +67,7 @@ h1{
 #format{
     text-align: center;
     border: 2px solid white;
+    border-radius: 12px;
     height: 200px;
     width: 200px;
     padding: 2%;
@@ -75,6 +77,7 @@ h1{
 #formatRegister{
     text-align: center;
     border: 2px solid white;
+    border-radius: 12px;
     height: 290px;
     width: 200px;
     padding: 2%;
@@ -112,11 +115,7 @@ h1{
     clear: both;
     display: table;
 }
-#jumpscare{
-    visibility: hidden;
-    position: fixed;
-    
-}
+
 .bottone-gruppo button:not(:last-child){
     border-right: none;
 }
@@ -134,7 +133,7 @@ h1{
     font-family: nunito;
 }
 #logo{
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -181,61 +180,68 @@ h1{
     border-style:groove;
     border-color: rgb(0, 83, 119);
 }
-
 #loginForm{
     margin-left:20% ;
     text-align: justify;
+}
+#piedi{
+    position: relative;
+    float: left;
 }
 .foto-piedi{
     margin: auto;
     width: 100px;
     height: 50px;
 }
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
+.logo-piedi{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#social{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    float: right;
+}
+#testo-foot{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.foto-centro{
+    margin-top: 40px;
+    height: 500px;
+    width: 800px;
+}
+#body{
+    
+    padding: 2%;
+    margin: auto;
+    width: 800px;
+}
+.testo-centro{
+    font-family: nunito;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+h1{
+    font-family: nunito;
+    margin: 10px;
+}
+.auto-fig{
+    height: 150px;
+    width: 300px;
+}
+.figurina{
+    border: 2px solid black;
+    font-family: nunito ;
+    font-size: small;
+    position: relative;
+    height: 200px;
+    width: 350px;
+    float: left;
+    margin: 10px;
     padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
