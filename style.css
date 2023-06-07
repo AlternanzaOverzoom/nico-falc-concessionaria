@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color:rgb(129, 210, 199);
+    overflow-x: hidden;
 }
 label{
     font-family: nunito;
@@ -13,9 +14,9 @@ p{
 }
 span{
     color: white;   
-    margin-top: 2px;
-    margin-left: 2px;
-    margin-right: 4px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
     font-family: nunito;
 }
 
@@ -30,19 +31,21 @@ span{
     background-color: white;
     margin-right: 2px;
 }   
-#header1{
-    padding: 1%;
-    height: 30px;
-    background-color: white;
-}
 #header2{
     padding: 0.5%;
     height: 30px;
+    width: 100%;
     background-color:rgb(65, 103, 136);
+}
+.figurina:hover{
+    border: 2px dotted rgb(0, 83, 119) ;
+    
 }
 footer{
     padding: 0.5%;
+    margin-top: 5%;
     height: 50px;
+    width: 100%;
     position: sticky;
     background-color: rgb(65, 103, 136);
 }
@@ -54,12 +57,7 @@ footer{
 #img:hover{
     border: 1px solid black;
 }
-#credits{
-    background-color: white;
-    
-    height: auto;
-    width: auto; 
-}
+
 h1{
     font-family: nunito;
     color: white;
@@ -95,7 +93,8 @@ h1{
 }
 .bottone-gruppo button{
     margin: 0.5px;
-    width: 100px;
+    position:sticky;
+    width: 95   px;
     height: 30px;
     cursor: pointer;
     border-radius: 16px;
@@ -196,13 +195,12 @@ h1{
 .logo-piedi{
     width: 30px;
     height: 30px;
-    margin-left: 10px;
-    margin-top: 3px;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 #social{
     width: 200px;
     height: 50px;
-    position: relative;
     float: right;
 }
 #testo-foot{
@@ -210,15 +208,15 @@ h1{
     margin-bottom: 0;
 }
 .foto-centro{
-    margin-top: 40px;
-    height: 500px;
-    width: 800px;
+    margin-top: 1%;
+    height: 70%;
+    width: 90%;
 }
-#body{
-    
+.body{
     padding: 2%;
-    margin: auto;
-    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 .testo-centro{
     font-family: nunito;
@@ -230,18 +228,41 @@ h1{
     font-family: nunito;
     margin: 10px;
 }
+h2{
+    font-family: nunito;
+    color: rgb(0, 83, 119);
+    margin: 5px;
+}
 .auto-fig{
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
 }
 .figurina{
     border: 2px solid black;
-    font-family: nunito ;
-    font-size: small;
-    position: relative;
-    height: 200px;
-    width: 350px;
     float: left;
-    margin: 10px;
-    padding: 20px;
+    margin: 2%;
+    padding: 2%;
+}
+.foto-auto{
+    height: 30%;
+    width: 50%;
+}
+.cartina{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+}
+#cartina{
+ border-radius: 16px;   
+}
+#contenitore{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+li{
+    font-family: nunito;
+    color: antiquewhite;
 }
